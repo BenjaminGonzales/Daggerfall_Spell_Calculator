@@ -77,8 +77,6 @@ def calc_things(spell: SpecificSpell, character: Character, levels: range) -> di
     chances    = []
     durations  = []
     manacost = spell.casting_cost(character.skills[spell.base.school])
-    manacosts   = [manacost for _ in levels]
-    calcs['manacost'] = manacosts
     attr_str = 'attr'
 
     if spell.base.has_magnitude:    
@@ -86,34 +84,20 @@ def calc_things(spell: SpecificSpell, character: Character, levels: range) -> di
         avg = (mlow + mhigh) // 2
         savg = (mslow + mshigh) // 2
 
-        magnitudes = [avg + (savg // perlvl) * level for level in levels]
+        magnitudes = [avg + (savg * (level// perlvl))  for level in levels]
         calcs[attr_str] = magnitudes
     
     if spell.base.has_chance:
         base, scale, perlvl = spell.chance
-        chances    = [base + (scale // perlvl) * level for level in levels]
+        chances    = [base + (scale * (level // perlvl)) for level in levels]
         calcs['chances'] = chances      
 
     if spell.base.has_duration:
         base, scale, perlvl = spell.duration
-        durations  = [base + (scale // perlvl) * level for level in levels]
+        durations  = [base + (scale * (level // perlvl)) for level in levels]
         calcs['durations'] = durations
 
     if spell.base.has_duration and spell.base.has_magnitude:
         attr_per_mana = [attr / manacost for attr in magnitudes]
         calcs[attr_str + '/mana'] = attr_per_mana
     return calcs
-
-def calc_damage(spell: SpecificSpell, levels: range) -> dict[str, list[int | float]]:
-    levels = range(20)
-    base_damage, per_lvl_dmg, lvl_jumps = spell.magnitude
-    damage_values = [base_damage + per_lvl_dmg * (level//lvl_jumps) for level in levels]
-    damage_per_mana = [damage / spell.cost_raw for damage in damage_values]
-    return {
-        "damage_values" : damage_values, 
-        "damage_per_mana" : damage_per_mana 
-        }
-
-def calc_chance(chance, mana_cost) -> dict[str, list[float]]:
-    return {}
-
