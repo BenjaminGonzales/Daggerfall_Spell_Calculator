@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import json
 from .spellcost import BaseSpell
 
 def map_to_int(s):
@@ -7,8 +8,9 @@ def map_to_int(s):
         return int(s)
     return 0
 
-def extract_table():
+def extract_table_html():
     spell_dict: dict[str, BaseSpell] = {}
+    # this presupposes the wiki html is in the working directory
     with open("spell_data.html", encoding="utf-8") as fp:
         soup = BeautifulSoup(fp, 'html.parser')
         tables = soup.find_all('table', limit=2)
@@ -55,5 +57,37 @@ def extract_table():
         fp.close()
     return spell_dict
 
+def base_spell_decoder(obj):
+    required = {
+        'effect', 'sub_effect', 'school', 'premium',
+        'duration_cost_factor', 'chance_cost_factor',
+        'magnitude_cost_factor'
+        }
+    if required.issubset(obj):
+        return BaseSpell(
+            obj['effect'],
+            obj['sub_effect'],
+            obj['school'],
+            obj['premium'],
+            tuple(obj['duration_cost_factor']),
+            tuple(obj['chance_cost_factor']),
+            tuple(obj['magnitude_cost_factor']),
+        )
+    else:
+        return obj
+
+def extract_table_json():
+    with open("./gamedata/spell_data.json", "r") as fp:
+        return json.load(fp, object_hook=base_spell_decoder)
+
 if __name__ == "__main__":
-    extract_table()
+    spell_data = {}
+    try:
+        spell_data = extract_table_json()
+    except FileNotFoundError:
+        print("JSON file for spell data not found in working directory")
+    try:
+        extract_table_html()
+    except FileNotFoundError:
+        print("Wiki page file for spell data not found in working directory")
+    print(spell_data)

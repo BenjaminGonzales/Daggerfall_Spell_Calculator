@@ -1,0 +1,1046 @@
+{
+    "Chameleon Normal": {
+        "effect": "Chameleon",
+        "sub_effect": "Normal",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            20
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Chameleon True": {
+        "effect": "Chameleon",
+        "sub_effect": "True",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            10,
+            30
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Charm ": {
+        "effect": "Charm",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            10,
+            15
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Climbing ": {
+        "effect": "Climbing",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            5
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Comprehend Languages ": {
+        "effect": "Comprehend Languages",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            15,
+            17
+        ],
+        "chance_cost_factor": [
+            10,
+            17
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Continuous Damage Fatigue": {
+        "effect": "Continuous Damage",
+        "sub_effect": "Fatigue",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            10,
+            7
+        ]
+    },
+    "Continuous Damage Health": {
+        "effect": "Continuous Damage",
+        "sub_effect": "Health",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            10,
+            7
+        ]
+    },
+    "Continuous Damage Spell Points": {
+        "effect": "Continuous Damage",
+        "sub_effect": "Spell Points",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            10,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            10,
+            7
+        ]
+    },
+    "Create Item ": {
+        "effect": "Create Item",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            15,
+            30
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Cure Disease": {
+        "effect": "Cure",
+        "sub_effect": "Disease",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            2,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Cure Paralyzation": {
+        "effect": "Cure",
+        "sub_effect": "Paralyzation",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            5,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Cure Poison": {
+        "effect": "Cure",
+        "sub_effect": "Poison",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            2,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Damage Fatigue": {
+        "effect": "Damage",
+        "sub_effect": "Fatigue",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            5,
+            7
+        ]
+    },
+    "Damage Health": {
+        "effect": "Damage",
+        "sub_effect": "Health",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            5,
+            7
+        ]
+    },
+    "Damage Spell Points": {
+        "effect": "Damage",
+        "sub_effect": "Spell Points",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            5,
+            7
+        ]
+    },
+    "Detect Enemy": {
+        "effect": "Detect",
+        "sub_effect": "Enemy",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Detect Magic": {
+        "effect": "Detect",
+        "sub_effect": "Magic",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Detect Treasure": {
+        "effect": "Detect",
+        "sub_effect": "Treasure",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Disintegrate ": {
+        "effect": "Disintegrate",
+        "sub_effect": "",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            20,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Dispel Daedra": {
+        "effect": "Dispel",
+        "sub_effect": "Daedra",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            30,
+            45
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Dispel Magic": {
+        "effect": "Dispel",
+        "sub_effect": "Magic",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            30,
+            45
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Dispel Undead": {
+        "effect": "Dispel",
+        "sub_effect": "Undead",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            20,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Dispel Drain": {
+        "effect": "Dispel",
+        "sub_effect": "Drain",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            2,
+            25
+        ]
+    },
+    "Elemental Resistance ": {
+        "effect": "Elemental Resistance",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            25,
+            25
+        ],
+        "chance_cost_factor": [
+            2,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Fortify Attribute ": {
+        "effect": "Fortify Attribute",
+        "sub_effect": "",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            25
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            10,
+            30
+        ]
+    },
+    "Free Action ": {
+        "effect": "Free Action",
+        "sub_effect": "",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Heal Attribute": {
+        "effect": "Heal",
+        "sub_effect": "Attribute",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            10,
+            7
+        ]
+    },
+    "Heal Fatigue": {
+        "effect": "Heal",
+        "sub_effect": "Fatigue",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            2,
+            7
+        ]
+    },
+    "Heal Health": {
+        "effect": "Heal",
+        "sub_effect": "Health",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            5,
+            7
+        ]
+    },
+    "Identify ": {
+        "effect": "Identify",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            10,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Invisibility Normal": {
+        "effect": "Invisibility",
+        "sub_effect": "Normal",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            10,
+            30
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Invisibility True": {
+        "effect": "Invisibility",
+        "sub_effect": "True",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            15,
+            35
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Jumping ": {
+        "effect": "Jumping",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Levitate ": {
+        "effect": "Levitate",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            15,
+            25
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Light ": {
+        "effect": "Light",
+        "sub_effect": "",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            2,
+            10
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Lock ": {
+        "effect": "Lock",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            7,
+            30
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Open ": {
+        "effect": "Open",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            5,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Pacify Animal": {
+        "effect": "Pacify",
+        "sub_effect": "Animal",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            15,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Pacify Daedra": {
+        "effect": "Pacify",
+        "sub_effect": "Daedra",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            15,
+            30
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Pacify Humanoid": {
+        "effect": "Pacify",
+        "sub_effect": "Humanoid",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            20,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Pacify Undead": {
+        "effect": "Pacify",
+        "sub_effect": "Undead",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            20,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Paralyze ": {
+        "effect": "Paralyze",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            25
+        ],
+        "chance_cost_factor": [
+            7,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Regenerate ": {
+        "effect": "Regenerate",
+        "sub_effect": "",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            25,
+            5
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            2,
+            2
+        ]
+    },
+    "Shadow Normal": {
+        "effect": "Shadow",
+        "sub_effect": "Normal",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            20
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Shadow True": {
+        "effect": "Shadow",
+        "sub_effect": "True",
+        "school": "Illusion",
+        "premium": 0,
+        "duration_cost_factor": [
+            10,
+            30
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Shield ": {
+        "effect": "Shield",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            20,
+            15
+        ]
+    },
+    "Silence ": {
+        "effect": "Silence",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            25
+        ],
+        "chance_cost_factor": [
+            5,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Slowfall ": {
+        "effect": "Slowfall",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            25
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Soul Trap ": {
+        "effect": "Soul Trap",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            15,
+            17
+        ],
+        "chance_cost_factor": [
+            10,
+            17
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Spell Absorption ": {
+        "effect": "Spell Absorption",
+        "sub_effect": "",
+        "school": "Restoration",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            35
+        ],
+        "chance_cost_factor": [
+            7,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Spell Reflection ": {
+        "effect": "Spell Reflection",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            7,
+            35
+        ],
+        "chance_cost_factor": [
+            7,
+            35
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Spell Resistance ": {
+        "effect": "Spell Resistance",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            25
+        ],
+        "chance_cost_factor": [
+            5,
+            25
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Teleport ": {
+        "effect": "Teleport",
+        "sub_effect": "",
+        "school": "Mysticism",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Transfer Attribute": {
+        "effect": "Transfer",
+        "sub_effect": "Attribute",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            15,
+            25
+        ]
+    },
+    "Transfer Fatigue": {
+        "effect": "Transfer",
+        "sub_effect": "Fatigue",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            15,
+            25
+        ]
+    },
+    "Transfer Health": {
+        "effect": "Transfer",
+        "sub_effect": "Health",
+        "school": "Destruction",
+        "premium": 0,
+        "duration_cost_factor": [
+            0,
+            0
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            15,
+            25
+        ]
+    },
+    "Water Breathing ": {
+        "effect": "Water Breathing",
+        "sub_effect": "",
+        "school": "Alteration",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    },
+    "Water Walking ": {
+        "effect": "Water Walking",
+        "sub_effect": "",
+        "school": "Thaumaturgy",
+        "premium": 0,
+        "duration_cost_factor": [
+            5,
+            2
+        ],
+        "chance_cost_factor": [
+            0,
+            0
+        ],
+        "magnitude_cost_factor": [
+            0,
+            0
+        ]
+    }
+}
