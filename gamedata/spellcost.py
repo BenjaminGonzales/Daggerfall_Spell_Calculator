@@ -77,25 +77,25 @@ def calc_things(spell: SpecificSpell, character: Character, levels: range) -> di
     chances    = []
     durations  = []
     manacost = spell.casting_cost(character.skills[spell.base.school])
-    attr_str = 'attr'
+    attr_str = 'magnitude'
 
     if spell.base.has_magnitude:    
         mlow, mhigh, mslow, mshigh, perlvl = spell.magnitude
         avg = (mlow + mhigh) // 2
         savg = (mslow + mshigh) // 2
 
-        magnitudes = [avg + (savg * (level// perlvl))  for level in levels]
+        magnitudes = [avg + (savg * ((level + 1)// perlvl))  for level in levels]
         calcs[attr_str] = magnitudes
     
     if spell.base.has_chance:
         base, scale, perlvl = spell.chance
-        chances    = [base + (scale * (level // perlvl)) for level in levels]
-        calcs['chances'] = chances      
+        chances    = [base + (scale * ((level + 1) // perlvl)) for level in levels]
+        calcs['chance'] = chances      
 
     if spell.base.has_duration:
         base, scale, perlvl = spell.duration
-        durations  = [base + (scale * (level // perlvl)) for level in levels]
-        calcs['durations'] = durations
+        durations  = [base + (scale * ((level + 1) // perlvl)) for level in levels]
+        calcs['duration'] = durations
 
     if spell.base.has_duration and spell.base.has_magnitude:
         attr_per_mana = [attr / manacost for attr in magnitudes]
