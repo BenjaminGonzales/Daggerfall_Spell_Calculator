@@ -54,6 +54,9 @@ class SpecificSpell:
     def casting_cost(self, character_skill):
         return (0.275 - 0.0025 * character_skill) * self.cost_raw
     
+    def __hash__(self):
+        return hash(repr(self))
+    
 
 def cost_of_property_raw(cost_factor, base_cost_factor) -> float:
     cost:float = 0

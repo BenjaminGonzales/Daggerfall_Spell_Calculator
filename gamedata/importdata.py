@@ -8,7 +8,7 @@ def map_to_int(s):
         return int(s)
     return 0
 
-def extract_table_html():
+def extract_table_html() -> dict[str, BaseSpell]:
     spell_dict: dict[str, BaseSpell] = {}
     # this presupposes the wiki html is in the working directory
     with open("spell_data.html", encoding="utf-8") as fp:

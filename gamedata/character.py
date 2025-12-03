@@ -62,7 +62,7 @@ class Character:
                 file_skills = playerentity['skills']
                 level = playerentity['level']
             except:
-                print("error reading save file for character data")    
+                print("error reading save file for character data")
             fp.close()
             
         self.stats  = file_stats

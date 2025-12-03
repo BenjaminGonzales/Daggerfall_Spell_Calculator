@@ -1,6 +1,9 @@
 from gamedata.importdata import extract_table_json
 from gamedata.spellcost import SpecificSpell, calc_things, CastType
 from gamedata.character import Character
+from tkinter import *
+from tkinter import ttk
+from gui.gui import dsc_gui
 
 def print_calculated_values(calcs: dict, spell: SpecificSpell, character: Character, levels: range) -> None:
     print(spell.name + f" | {spell.casting_cost(character.skills[spell.base.school]):.2f} magika", end ='   ')
@@ -34,30 +37,29 @@ def print_calculated_values(calcs: dict, spell: SpecificSpell, character: Charac
         print("-", end="")
     for _ in levels:
         print("---------", end='')
-    print()    
+    print() 
 
-def main():
+def alternative_calc():
     spell_data = extract_table_json()
-    specific_spells: list[SpecificSpell] = []
-    for base_spell in spell_data.values():
-        for i in range(5):
-            this_spell = SpecificSpell(base_spell, CastType.TOUCH)
-            if base_spell.has_duration:
-                this_spell.duration = (1, i, 1)
-            if base_spell.has_chance:
-                this_spell.chance = (1, i, 1)
-            if base_spell.has_magnitude:
-                this_spell.magnitude = (1, 1, i, i, 1)
-            specific_spells.append(this_spell)
+    spell_to_test = spell_data['Damage Health']
+    character = Character("SaveData.txt")
+    calcs: dict[SpecificSpell, dict] = {}
+    spell_variants = [[]]
+    levels = range(5, 15)
+    for i in range(1, 3):
+        for j in range(1, 8):
+            spell = SpecificSpell(spell_to_test, CastType.SINGLE, magnitude=(2, 2, j, j, 1))
+            calcs[spell] = calc_things(spell, character, levels)
+    
+    for spell, calc in calcs.items():
+        print_calculated_values(calc, spell, character, levels)
 
-    character = Character("C:\\Users\\Benji\\AppData\\LocalLow\\Daggerfall Workshop\\Daggerfall Unity\\Saves\\SAVE49\\SaveData.txt")
-    levels = range(25)
-    for i in levels:
-        print(i)
-    for spell in specific_spells:
-        test = calc_things(spell, character, levels)
-        print_calculated_values(test, spell, character, levels)
-        print()
+def main_gui():
+    spells = extract_table_json()
+    spell_titles = list(spells.keys())
+    app = dsc_gui()
+    app.set_spells(spell_titles)
+    app.start_gui()
 
 if __name__ == "__main__":
-    main()
+    main_gui()
